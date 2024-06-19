@@ -1,0 +1,62 @@
+body{
+  background: #ecf0f3;
+}
+
+.container{
+  border-radius: 8px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  padding: 20px 0px;
+  margin-top: 30px;
+}
+.headerImage{
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.addbutton{
+  background: #33cc33;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: .1s;
+  cursor: pointer;
+}
+.addbutton:hover, .addbutton:active{
+  background: #33cc33 !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #33cc33 !important;
+}
+.deleteButton{
+  background: #d50909;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.deleteButton:hover, .deleteButton:active{
+  background: #d50909 !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: inset 5px 5px 8px #a30808, inset -5px -5px 8px #d50909 !important;
+}
+
+.editbutton{
+  background: #33ccff;
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: .1s;
+  cursor: pointer;
+}
+.editbutton:hover, .editbutton:active{
+  background: #33ccff !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6 !important;
+}
